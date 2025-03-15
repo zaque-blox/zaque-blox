@@ -1,14 +1,14 @@
 if game.PleaseId == 3623096087 then
     
-    -- Load
+    --Load
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
     
-    -- Main
+    --Main
     local Window = OrionLib:MakeWindow({Name = "zaque hub", HidePremium = false, SaveConfig = true, ConfigFolder = "zaqueCfg", IntroEnabled = true})
 
-    -- Main
-    local MainTab = Window:MakeTab({
-	Name = "Main",
+    --Player
+    local PlayerTab = Window:MakeTab({
+	Name = "Player",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
