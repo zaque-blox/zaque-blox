@@ -2,3 +2,6 @@ if game.PleaseId == 3623096087 then
     
     -- Load
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+    
+    -- Main
+    local Window = OrionLib:MakeWindow({Name = "Title of the library", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
