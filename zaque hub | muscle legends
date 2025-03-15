@@ -4,4 +4,4 @@ if game.PleaseId == 3623096087 then
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
     
     -- Main
-    local Window = OrionLib:MakeWindow({Name = "Title of the library", HidePremium = false, SaveConfig = true, ConfigFolder = "zaque"})
+    local Window = OrionLib:MakeWindow({Name = "zaque hub", HidePremium = false, SaveConfig = true, ConfigFolder = "zaque"})
