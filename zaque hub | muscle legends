@@ -1,4 +1,4 @@
 if game.PleaseId == 3623096087 then
     
     -- Load
-    
+    local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
